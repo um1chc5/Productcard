@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color:  white;
+    background-color: hsl(158, 36%, 25%);
+}
+
+.background {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+img {
+    display: inline-block;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.content {
+    display: block;
+    float: right;
+    width: 50%;
+    padding: 35px;
+}
+
+.montserrat {
+    font-family: "Montserrat";
+    font-weight: 400px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.fraunces {
+    font-family: "Fraunces";
+    font-size: 30px;
+}
+
+.name {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: hsl(212, 21%, 14%);
+}
+
+.describle {
+    line-height: 1.6;
+}
+.price {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 50%;
+    color: hsl(158, 36%, 37%);
+}
+.old-price {
+    font-size: 14px;
+    text-decoration-line: line-through;
+    display: inline;
+    padding-left: 20px;
+    position: absolute;
+    transform: translateY(30px);
+    width: 50%;
+    max-width: 30px;
+}
+
+.cart {
+    height: 14px;
+    width: 14px;
+    transform: scaleX(-1);
+}
+
+button {
+    display: block;
+    border: none;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+button > p {
+    display: inline-block;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 25%);
+}
+
+.attribution {
+    position:absolute; 
+    font-size: 12px;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
