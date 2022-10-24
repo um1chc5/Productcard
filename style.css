@@ -50,10 +50,16 @@ img {
     font-size: 30px;
 }
 
+.label {
+    font-size: 13px;
+}
+
 .name {
     padding-top: 20px;
     padding-bottom: 20px;
     color: hsl(212, 21%, 14%);
+    max-width: 200px;
+    line-height: 1.2;
 }
 
 .describle {
@@ -80,7 +86,7 @@ img {
 .cart {
     height: 14px;
     width: 14px;
-    transform: scaleX(-1);
+    transform: translateY(2px);
 }
 
 button {
@@ -95,7 +101,9 @@ button {
 
 button > p {
     display: inline-block;
+    font-family: "montserrat";
 }
+
 
 button:hover {
     background-color: hsl(158, 36%, 25%);
