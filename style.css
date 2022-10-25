@@ -32,7 +32,6 @@ img {
 }
 
 .content {
-    display: block;
     float: right;
     width: 50%;
     padding: 35px;
@@ -117,3 +116,40 @@ button:hover {
     transform: translateX(-50%);
 }
 
+@media only screen and (max-width: 620px ) {
+    .card {
+        height: 610px;
+        width: 340px;
+    }
+
+    .img {
+        border-radius: 10px 10px 0px 0px;
+        content: url('./images/image-product-mobile.jpg') ;
+        width: 100%;
+    }
+
+    .content {
+        padding: 25px;
+        width: 100%;
+    }
+
+    .name {
+        max-width: 340px;
+    }
+
+    .name, .price {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .old-price {
+        padding-left: 0px;
+        position: absolute;
+        transform: translateY(23px);
+        width: 50%;
+        max-width: 30px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
